@@ -1,0 +1,30 @@
+{
+  "name": "website-report",
+  "version": "1.0.0",
+  "description": "Spiders a given website to check link validity and other errors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/akilez/website-report"
+  },
+  "keywords": [
+    "404 Errors",
+    "link checker",
+    "spellcheck"
+  ],
+  "author": "Michael Christensen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akilez/website-report/issues"
+  },
+  "homepage": "https://github.com/akilez/website-report",
+  "dependencies": {
+    "backbone": "^1.2.1",
+    "handlebars": "^3.0.3",
+    "hapi": "^8.6.1",
+    "socket.io": "^1.3.5"
+  }
+}
